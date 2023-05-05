@@ -9,7 +9,7 @@ public class Welcome {
 
 	@GetMapping(path = "/")
 	public String welcome(Model model) {
-		model.addAttribute("value", "test jenkins");
+		model.addAttribute("value", "This is my first amend.");
 		return "welcome";
 	}
 	
